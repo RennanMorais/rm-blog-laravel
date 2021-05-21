@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('blog.index');
+});
+
+Route::prefix('admin')->group(function(){
+    Route::get('login', [Admin\Auth\LoginController::class, 'index'])->name('login');
+    Route::post('login', [Admin\Auth\LoginController::class, 'authenticate']);
 });
