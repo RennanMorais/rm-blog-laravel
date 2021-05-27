@@ -1,0 +1,13 @@
+.footer {
+    color: #ffffff;
+    height: 150px;
+}
+
+.footer-menu {
+    list-style: none;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #ffffff;
+}

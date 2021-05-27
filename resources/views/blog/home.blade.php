@@ -12,7 +12,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <img width="200" src="{{asset('media/images/logo-rm.png')}}">
+                    <a href="/"><img width="200" src="{{asset('media/images/logo-rm.png')}}"></a>
                 </div>
                 <div class="col-md-3 d-flex align-items-center">
                     <div class="row">
@@ -68,6 +68,74 @@
 
                     </div>
                 </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg-light pt-4">
+        <div class="card mb-3">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href=""><img src="{{asset('media/images/post1.jpg')}}" width="300"></a>
+                </div>
+                <div class="col-md-9">
+                    <div class="card-body">
+                    <a href="" style="color: blue; text-decoration:none;"><h5 class="card-title">Striking Distance Studios considera The Callisto Protocol como um 'AAAA Next-Gen'</h5></a>
+                    <p class="card-text">Estúdio do co-criador de Dead Space e veteranos da Visceral Games adotará da Unreal Engine 4 para motor gráfico</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href=""><img src="{{asset('media/images/post2.jpg')}}" width="300"></a>
+                </div>
+                <div class="col-md-9">
+                    <div class="card-body">
+                    <a href="" style="color: blue; text-decoration:none;"><h5 class="card-title">Segundo informações, a Microsoft já está trocando seus servidores do XCloud</h5></a>
+                    <p class="card-text">De acordo com Jez Coden, a Microsoft já está trocando a infraestrutura do XCloud pro Xbox Series X</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href=""><img src="{{asset('media/images/post3.jpg')}}" width="300"></a>
+                </div>
+                <div class="col-md-9">
+                    <div class="card-body">
+                    <a href="" style="color: blue; text-decoration:none;"><h5 class="card-title">Rumor | God of War: Ragnarok será apenas para PS5</h5></a>
+                    <p class="card-text">Mostrando o potencial da nova geração.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark">
+        <div class="footer">
+            <div class="container p-3 text-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="/"><img width="150" src="{{asset('media/images/logo-rm.png')}}"></a>
+                        <p><small class="text-muted">Todos os direitos reservados.</small></p>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Links</h6>
+                        <ul class="footer-menu">
+                            <a href=""><li>Home</li></a>
+                            <a href=""><li>Home</li></a>
+                            <a href=""><li>Home</li></a>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

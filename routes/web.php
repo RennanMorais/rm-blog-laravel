@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin; 
+use App\Http\Controllers\Blog;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,11 +15,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('blog.index');
-});
+Route::get('/', [Blog\HomeController::class, 'index']);
 
 Route::prefix('admin')->group(function(){
+    Route::get('/', [Admin\HomeController::class, 'index'])->name('admin');
+
     Route::get('login', [Admin\Auth\LoginController::class, 'index'])->name('login');
     Route::post('login', [Admin\Auth\LoginController::class, 'authenticate']);
 });
